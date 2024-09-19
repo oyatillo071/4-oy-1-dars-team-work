@@ -50,8 +50,42 @@ $C2: #6a983c;
     }
 }
 
-
-.hero{
+.hero {
     margin-top: 40px;
     margin-bottom: 48px;
+}
+.hero__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-hero {
+    h1 {
+        width: 77px;
+        height: 50px;
+        padding: 16px 16px;
+    }
+}
+
+.hero-bottom {
+    align-items: center;
+    display: flex;
+    width: 500px;
+    height: 42px;
+    border-radius: 12px;
+    border: 1px solid #d1d1d1;
+
+    h2 {
+        font-family: "Poppins";
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 22.5px;
+        text-align: left;
+    }
+}
+
+.hero-icon {
+    display: flex;
+    gap: 40px;
 }
