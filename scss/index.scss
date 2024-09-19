@@ -1,0 +1,22 @@
+@import "./global";
+@import "./fonts";
+
+.header{
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.header__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-hero{
+    display: flex;
+    align-items: center;
+    gap: 33px;
+    a{
+
+    }
+}
