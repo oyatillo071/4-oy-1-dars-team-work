@@ -10,6 +10,7 @@ $C2: #6a983c;
 }
 
 .header__container {
+
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -69,6 +70,8 @@ $C2: #6a983c;
 }
 
 .hero-bottom {
+    background-color: #F9F9F9;
+    gap: 30px;
     align-items: center;
     display: flex;
     width: 500px;
